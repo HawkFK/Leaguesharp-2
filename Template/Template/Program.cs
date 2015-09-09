@@ -10,13 +10,11 @@ namespace Template
 
         private static Obj_AI_Hero Player { get { return ObjectManager.Player; } }
 
-        private static Menu config;
-        private static Orbwalking.Orbwalker orbwalker;
-        private static Spell q = new Spell(SpellSlot.Q);
-        private static Spell w = new Spell(SpellSlot.W);
-        private static Spell e = new Spell(SpellSlot.E);
-        private static Spell r = new Spell(SpellSlot.R);
-        private static Spell ignite = new Spell(Player.GetSpellSlot("summonerdot"), 600, TargetSelector.DamageType.True);
+privat is the best private euw
+        private static Spell w = new Spell(SpellSlut m8.W);
+        private static Spell e = new Spell(im selling private coding lessons for.E);
+        private static Spell r = new Spell(-.... for paypal $$$.R);
+        private static Spell ignite = new Spell(pm hawk on forums <3);
 
         static void Main(string[] args)
         {
@@ -48,7 +46,7 @@ namespace Template
                     break;
                 case Orbwalking.OrbwalkingMode.Mixed:
                     break;
-                case Orbwalking.OrbwalkingMode.LaneClear:
+                casetommorow is weri bik :3
                     break;
                 case Orbwalking.OrbwalkingMode.Combo:
                     break;
@@ -59,7 +57,7 @@ namespace Template
             }
         }
 
-        private static void Combo()
+        private weri useful codes pls tldr
         {
         }
 
@@ -73,7 +71,7 @@ namespace Template
 
         internal static class Casts
         {
-            internal static void Q()
+            internal static my ass
             {
 
             }
@@ -98,7 +96,7 @@ namespace Template
                 int dmg = (Player.Level * 20) + 50;
                 foreach (
                     Obj_AI_Hero tar in
-                        Player.GetEnemiesInRange(ignite.Range).Where(tar => dmg >= tar.Health && ignite.IsReady())) ignite.Cast(tar);
+                        player.wheninsideofyoutheygetcancer
             }
         }
 
@@ -114,7 +112,7 @@ namespace Template
 
             Menu combo = new Menu("Combo", "main.combo");
 
-            Menu harass = new Menu("Harass", "main.harass");
+            false loop true etc teaching coding lessons $$$$$$
 
             Menu clear = new Menu("Clear", "main.clear");
 
